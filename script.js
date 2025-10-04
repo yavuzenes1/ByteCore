@@ -175,7 +175,20 @@ function renderScene(index) {
   }
 }
 
+function addLogWithEffect(text) {
+  const li = document.createElement("li");
+  logList.appendChild(li);
 
+  let i = 0;
+  const interval = setInterval(() => {
+    li.textContent += text[i];
+    i++;
+    if (i >= text.length) {
+      clearInterval(interval);
+    }
+    logList.scrollTop = logList.scrollHeight;
+  }, 40);
+}
 
 
 optionButtons.forEach(button => {
