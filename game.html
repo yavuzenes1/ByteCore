@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ByteCore Hikaye</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">ByteCore</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="about.html">Hakkında</a></li>
+        <li><a href="game.html">OYNA</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="info-tooltip" id="info-tooltip">
+    <div class="info-circle">i</div>
+    <div class="tooltip-text" id="tooltip-text">Yükleniyor..</div>
+  </div>
+  <main>
+    <section class="story-area">
+      <div class="visual-left image-box">
+        <img id="left-image" src="" alt="Sol Görsel" />
+      </div>
+
+      <div class="question-container">
+        <h2 id="question-text">Yükleniyor...</h2>
+        <div class="options">
+          <div class="option-card" data-index="0">
+            <div class="option-inner">
+              <div class="option-front">Şık 1</div>
+              <div class="option-back">Açıklama 1</div>
+            </div>
+          </div>
+          <div class="option-card" data-index="1">
+            <div class="option-inner">
+              <div class="option-front">Şık 2</div>
+              <div class="option-back">Açıklama 2</div>
+            </div>
+          </div>
+          <div class="option-card" data-index="2">
+            <div class="option-inner">
+              <div class="option-front">Şık 3</div>
+              <div class="option-back">Açıklama 3</div>
+            </div>
+          </div>
+          <div class="option-card" data-index="3">
+            <div class="option-inner">
+              <div class="option-front">Şık 4</div>
+              <div class="option-back">Açıklama 4</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="visual-right image-box zoomable">
+        <img id="right-image" src="" alt="Sağ Görsel" />
+      </div>
+</section>
+    </section>
+
+    <aside class="story-log">
+      <h3>Hikaye Günlüğü</h3>
+      <ul id="log-list"></ul>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
