@@ -1,7 +1,7 @@
 const storyData = [
   {
     background: "img/soru_1.png",
-    leftImage: "img/sol_gorsel1.png",
+    leftImage: "img/sag_gorsel1.png",
     rightImage: "img/sag_gorsel1.png",
     hint: "Deniz yolunda gitme.",
     intro: "Amerika'da yaşayan bir balıkçısın.",
@@ -35,39 +35,319 @@ const storyData = [
     next: [1,1,1,1]
   },
   {
-    background: "img/.png",
-    leftImage: "img/sol_gorsel2.png",
-    rightImage: "img/sag_gorsel3.png",
-
-    intro: "",
-    question: "Kaliforniya'da",
+    background: "img/soru_1.png",
+    leftImage: "img/sol_gorsel1.png",
+    rightImage: "img/sag_gorsel1.png",
+    hint: "Deniz yolunda gitme.",
+    intro: "Amerika'da yaşayan bir balıkçısın.",
+    question: "Amerika'nın San Fransisco eyaletinde araba sürerken sahile yaklaştın ve radyoda uzmanlar balıkların güneş ışınları yüzünden zararlı olabileceği konusunda uyarılarda bulunuyor.",
     options: [
       {
-        text: "",
-        backText: "",
-        logText: "",
-        hoverBackground: "img/.png"
+        text: "Balık tut ve sat.",
+        backText: "Balık tutup satabilirsin, bu sana para kazandıracak.",
+        logText: "Balık tuttun ve bunu sattın. Sattığın kişi zehirlendi ve sen zararlı ve denetimsiz balığı sattığın için evine icra geldi ve Kaliforniya'daki arkadaşının evine gitmek zorunda kaldın.",
+        hoverBackground: "img/balik_sat.png"
       },
       {
-        text: "",
-        backText: "",
-        logText: "",
-        hoverBackground: "img/.png"
+        text: "Balık tut ve ye.",
+        backText: "Balık tutup yiyebilirsin, bu senin açlığını giderecek.",
+        logText: "Balığı yedin ve zehirlendin, seni ambulans Kaliforniya'daki bir hastaneye kaldırdı.",
+        hoverBackground: "img/balik.png"
       },
       {
-        text: "",
-        backText: "",
-        logText: "",
-        hoverBackground: "img/.png"
+        text: "Sahil yolundan uzaklaş.",
+        backText: "Sahil yolundan uzaklaşarak, şehrin sakin bölgelerine doğru gideceksin.",
+        logText: "Sahil yolundan uzaklaşarak yolunu kaybettin ve Kaliforniya'ya kadar yol aldın.",
+        hoverBackground: "img/sahil_yolu_degil.png"
       },
       {
-        text: "",
-        backText: "",
-        logText: "",
-        hoverBackground: "img/.png"
+        text: "Sahil yolunda sürmeye devam et.",
+        backText: "Sahil yolunda denizi izleyerek araba sürmeye devam et.",
+        logText: "Sahil yolunda sürerken deniz yüzünden yoldan dikkatın dağıldı. Sonucunda büyük bir kaza gerçekleştirerek Kaliforniya'ya hastaneye kaldırıldın.",
+        hoverBackground: "img/sahil_yolu.png"
       }
     ],
     next: [2,2,2,2]
+  },
+    {
+    background: "img/soru_1.png",
+    leftImage: "img/sol_gorsel1.png",
+    rightImage: "img/sag_gorsel1.png",
+    hint: "Deniz yolunda gitme.",
+    intro: "Amerika'da yaşayan bir balıkçısın.",
+    question: "Amerika'nın San Fransisco eyaletinde araba sürerken sahile yaklaştın ve radyoda uzmanlar balıkların güneş ışınları yüzünden zararlı olabileceği konusunda uyarılarda bulunuyor.",
+    options: [
+      {
+        text: "Balık tut ve sat.",
+        backText: "Balık tutup satabilirsin, bu sana para kazandıracak.",
+        logText: "Balık tuttun ve bunu sattın. Sattığın kişi zehirlendi ve sen zararlı ve denetimsiz balığı sattığın için evine icra geldi ve Kaliforniya'daki arkadaşının evine gitmek zorunda kaldın.",
+        hoverBackground: "img/balik_sat.png"
+      },
+      {
+        text: "Balık tut ve ye.",
+        backText: "Balık tutup yiyebilirsin, bu senin açlığını giderecek.",
+        logText: "Balığı yedin ve zehirlendin, seni ambulans Kaliforniya'daki bir hastaneye kaldırdı.",
+        hoverBackground: "img/balik.png"
+      },
+      {
+        text: "Sahil yolundan uzaklaş.",
+        backText: "Sahil yolundan uzaklaşarak, şehrin sakin bölgelerine doğru gideceksin.",
+        logText: "Sahil yolundan uzaklaşarak yolunu kaybettin ve Kaliforniya'ya kadar yol aldın.",
+        hoverBackground: "img/sahil_yolu_degil.png"
+      },
+      {
+        text: "Sahil yolunda sürmeye devam et.",
+        backText: "Sahil yolunda denizi izleyerek araba sürmeye devam et.",
+        logText: "Sahil yolunda sürerken deniz yüzünden yoldan dikkatın dağıldı. Sonucunda büyük bir kaza gerçekleştirerek Kaliforniya'ya hastaneye kaldırıldın.",
+        hoverBackground: "img/sahil_yolu.png"
+      }
+    ],
+    next: [3,3,3,3]
+  },
+    {
+    background: "img/soru_1.png",
+    leftImage: "img/sol_gorsel1.png",
+    rightImage: "img/sag_gorsel1.png",
+    hint: "Deniz yolunda gitme.",
+    intro: "Amerika'da yaşayan bir balıkçısın.",
+    question: "Amerika'nın San Fransisco eyaletinde araba sürerken sahile yaklaştın ve radyoda uzmanlar balıkların güneş ışınları yüzünden zararlı olabileceği konusunda uyarılarda bulunuyor.",
+    options: [
+      {
+        text: "Balık tut ve sat.",
+        backText: "Balık tutup satabilirsin, bu sana para kazandıracak.",
+        logText: "Balık tuttun ve bunu sattın. Sattığın kişi zehirlendi ve sen zararlı ve denetimsiz balığı sattığın için evine icra geldi ve Kaliforniya'daki arkadaşının evine gitmek zorunda kaldın.",
+        hoverBackground: "img/balik_sat.png"
+      },
+      {
+        text: "Balık tut ve ye.",
+        backText: "Balık tutup yiyebilirsin, bu senin açlığını giderecek.",
+        logText: "Balığı yedin ve zehirlendin, seni ambulans Kaliforniya'daki bir hastaneye kaldırdı.",
+        hoverBackground: "img/balik.png"
+      },
+      {
+        text: "Sahil yolundan uzaklaş.",
+        backText: "Sahil yolundan uzaklaşarak, şehrin sakin bölgelerine doğru gideceksin.",
+        logText: "Sahil yolundan uzaklaşarak yolunu kaybettin ve Kaliforniya'ya kadar yol aldın.",
+        hoverBackground: "img/sahil_yolu_degil.png"
+      },
+      {
+        text: "Sahil yolunda sürmeye devam et.",
+        backText: "Sahil yolunda denizi izleyerek araba sürmeye devam et.",
+        logText: "Sahil yolunda sürerken deniz yüzünden yoldan dikkatın dağıldı. Sonucunda büyük bir kaza gerçekleştirerek Kaliforniya'ya hastaneye kaldırıldın.",
+        hoverBackground: "img/sahil_yolu.png"
+      }
+    ],
+    next: [4,4,4,4]
+  },
+    {
+    background: "img/soru_1.png",
+    leftImage: "img/sol_gorsel1.png",
+    rightImage: "img/sag_gorsel1.png",
+    hint: "Deniz yolunda gitme.",
+    intro: "Amerika'da yaşayan bir balıkçısın.",
+    question: "Amerika'nın San Fransisco eyaletinde araba sürerken sahile yaklaştın ve radyoda uzmanlar balıkların güneş ışınları yüzünden zararlı olabileceği konusunda uyarılarda bulunuyor.",
+    options: [
+      {
+        text: "Balık tut ve sat.",
+        backText: "Balık tutup satabilirsin, bu sana para kazandıracak.",
+        logText: "Balık tuttun ve bunu sattın. Sattığın kişi zehirlendi ve sen zararlı ve denetimsiz balığı sattığın için evine icra geldi ve Kaliforniya'daki arkadaşının evine gitmek zorunda kaldın.",
+        hoverBackground: "img/balik_sat.png"
+      },
+      {
+        text: "Balık tut ve ye.",
+        backText: "Balık tutup yiyebilirsin, bu senin açlığını giderecek.",
+        logText: "Balığı yedin ve zehirlendin, seni ambulans Kaliforniya'daki bir hastaneye kaldırdı.",
+        hoverBackground: "img/balik.png"
+      },
+      {
+        text: "Sahil yolundan uzaklaş.",
+        backText: "Sahil yolundan uzaklaşarak, şehrin sakin bölgelerine doğru gideceksin.",
+        logText: "Sahil yolundan uzaklaşarak yolunu kaybettin ve Kaliforniya'ya kadar yol aldın.",
+        hoverBackground: "img/sahil_yolu_degil.png"
+      },
+      {
+        text: "Sahil yolunda sürmeye devam et.",
+        backText: "Sahil yolunda denizi izleyerek araba sürmeye devam et.",
+        logText: "Sahil yolunda sürerken deniz yüzünden yoldan dikkatın dağıldı. Sonucunda büyük bir kaza gerçekleştirerek Kaliforniya'ya hastaneye kaldırıldın.",
+        hoverBackground: "img/sahil_yolu.png"
+      }
+    ],
+    next: [5,5,5,5]
+  },
+    {
+    background: "img/soru_1.png",
+    leftImage: "img/sol_gorsel1.png",
+    rightImage: "img/sag_gorsel1.png",
+    hint: "Deniz yolunda gitme.",
+    intro: "Amerika'da yaşayan bir balıkçısın.",
+    question: "Amerika'nın San Fransisco eyaletinde araba sürerken sahile yaklaştın ve radyoda uzmanlar balıkların güneş ışınları yüzünden zararlı olabileceği konusunda uyarılarda bulunuyor.",
+    options: [
+      {
+        text: "Balık tut ve sat.",
+        backText: "Balık tutup satabilirsin, bu sana para kazandıracak.",
+        logText: "Balık tuttun ve bunu sattın. Sattığın kişi zehirlendi ve sen zararlı ve denetimsiz balığı sattığın için evine icra geldi ve Kaliforniya'daki arkadaşının evine gitmek zorunda kaldın.",
+        hoverBackground: "img/balik_sat.png"
+      },
+      {
+        text: "Balık tut ve ye.",
+        backText: "Balık tutup yiyebilirsin, bu senin açlığını giderecek.",
+        logText: "Balığı yedin ve zehirlendin, seni ambulans Kaliforniya'daki bir hastaneye kaldırdı.",
+        hoverBackground: "img/balik.png"
+      },
+      {
+        text: "Sahil yolundan uzaklaş.",
+        backText: "Sahil yolundan uzaklaşarak, şehrin sakin bölgelerine doğru gideceksin.",
+        logText: "Sahil yolundan uzaklaşarak yolunu kaybettin ve Kaliforniya'ya kadar yol aldın.",
+        hoverBackground: "img/sahil_yolu_degil.png"
+      },
+      {
+        text: "Sahil yolunda sürmeye devam et.",
+        backText: "Sahil yolunda denizi izleyerek araba sürmeye devam et.",
+        logText: "Sahil yolunda sürerken deniz yüzünden yoldan dikkatın dağıldı. Sonucunda büyük bir kaza gerçekleştirerek Kaliforniya'ya hastaneye kaldırıldın.",
+        hoverBackground: "img/sahil_yolu.png"
+      }
+    ],
+    next: [6,6,6,6]
+  },
+    {
+    background: "img/soru_1.png",
+    leftImage: "img/sol_gorsel1.png",
+    rightImage: "img/sag_gorsel1.png",
+    hint: "Deniz yolunda gitme.",
+    intro: "Amerika'da yaşayan bir balıkçısın.",
+    question: "Amerika'nın San Fransisco eyaletinde araba sürerken sahile yaklaştın ve radyoda uzmanlar balıkların güneş ışınları yüzünden zararlı olabileceği konusunda uyarılarda bulunuyor.",
+    options: [
+      {
+        text: "Balık tut ve sat.",
+        backText: "Balık tutup satabilirsin, bu sana para kazandıracak.",
+        logText: "Balık tuttun ve bunu sattın. Sattığın kişi zehirlendi ve sen zararlı ve denetimsiz balığı sattığın için evine icra geldi ve Kaliforniya'daki arkadaşının evine gitmek zorunda kaldın.",
+        hoverBackground: "img/balik_sat.png"
+      },
+      {
+        text: "Balık tut ve ye.",
+        backText: "Balık tutup yiyebilirsin, bu senin açlığını giderecek.",
+        logText: "Balığı yedin ve zehirlendin, seni ambulans Kaliforniya'daki bir hastaneye kaldırdı.",
+        hoverBackground: "img/balik.png"
+      },
+      {
+        text: "Sahil yolundan uzaklaş.",
+        backText: "Sahil yolundan uzaklaşarak, şehrin sakin bölgelerine doğru gideceksin.",
+        logText: "Sahil yolundan uzaklaşarak yolunu kaybettin ve Kaliforniya'ya kadar yol aldın.",
+        hoverBackground: "img/sahil_yolu_degil.png"
+      },
+      {
+        text: "Sahil yolunda sürmeye devam et.",
+        backText: "Sahil yolunda denizi izleyerek araba sürmeye devam et.",
+        logText: "Sahil yolunda sürerken deniz yüzünden yoldan dikkatın dağıldı. Sonucunda büyük bir kaza gerçekleştirerek Kaliforniya'ya hastaneye kaldırıldın.",
+        hoverBackground: "img/sahil_yolu.png"
+      }
+    ],
+    next: [7,7,7,7]
+  },
+    {
+    background: "img/soru_1.png",
+    leftImage: "img/sol_gorsel1.png",
+    rightImage: "img/sag_gorsel1.png",
+    hint: "Deniz yolunda gitme.",
+    intro: "Amerika'da yaşayan bir balıkçısın.",
+    question: "Amerika'nın San Fransisco eyaletinde araba sürerken sahile yaklaştın ve radyoda uzmanlar balıkların güneş ışınları yüzünden zararlı olabileceği konusunda uyarılarda bulunuyor.",
+    options: [
+      {
+        text: "Balık tut ve sat.",
+        backText: "Balık tutup satabilirsin, bu sana para kazandıracak.",
+        logText: "Balık tuttun ve bunu sattın. Sattığın kişi zehirlendi ve sen zararlı ve denetimsiz balığı sattığın için evine icra geldi ve Kaliforniya'daki arkadaşının evine gitmek zorunda kaldın.",
+        hoverBackground: "img/balik_sat.png"
+      },
+      {
+        text: "Balık tut ve ye.",
+        backText: "Balık tutup yiyebilirsin, bu senin açlığını giderecek.",
+        logText: "Balığı yedin ve zehirlendin, seni ambulans Kaliforniya'daki bir hastaneye kaldırdı.",
+        hoverBackground: "img/balik.png"
+      },
+      {
+        text: "Sahil yolundan uzaklaş.",
+        backText: "Sahil yolundan uzaklaşarak, şehrin sakin bölgelerine doğru gideceksin.",
+        logText: "Sahil yolundan uzaklaşarak yolunu kaybettin ve Kaliforniya'ya kadar yol aldın.",
+        hoverBackground: "img/sahil_yolu_degil.png"
+      },
+      {
+        text: "Sahil yolunda sürmeye devam et.",
+        backText: "Sahil yolunda denizi izleyerek araba sürmeye devam et.",
+        logText: "Sahil yolunda sürerken deniz yüzünden yoldan dikkatın dağıldı. Sonucunda büyük bir kaza gerçekleştirerek Kaliforniya'ya hastaneye kaldırıldın.",
+        hoverBackground: "img/sahil_yolu.png"
+      }
+    ],
+    next: [8,8,8,8]
+  },
+    {
+    background: "img/soru_1.png",
+    leftImage: "img/sol_gorsel1.png",
+    rightImage: "img/sag_gorsel1.png",
+    hint: "Deniz yolunda gitme.",
+    intro: "Amerika'da yaşayan bir balıkçısın.",
+    question: "Amerika'nın San Fransisco eyaletinde araba sürerken sahile yaklaştın ve radyoda uzmanlar balıkların güneş ışınları yüzünden zararlı olabileceği konusunda uyarılarda bulunuyor.",
+    options: [
+      {
+        text: "Balık tut ve sat.",
+        backText: "Balık tutup satabilirsin, bu sana para kazandıracak.",
+        logText: "Balık tuttun ve bunu sattın. Sattığın kişi zehirlendi ve sen zararlı ve denetimsiz balığı sattığın için evine icra geldi ve Kaliforniya'daki arkadaşının evine gitmek zorunda kaldın.",
+        hoverBackground: "img/balik_sat.png"
+      },
+      {
+        text: "Balık tut ve ye.",
+        backText: "Balık tutup yiyebilirsin, bu senin açlığını giderecek.",
+        logText: "Balığı yedin ve zehirlendin, seni ambulans Kaliforniya'daki bir hastaneye kaldırdı.",
+        hoverBackground: "img/balik.png"
+      },
+      {
+        text: "Sahil yolundan uzaklaş.",
+        backText: "Sahil yolundan uzaklaşarak, şehrin sakin bölgelerine doğru gideceksin.",
+        logText: "Sahil yolundan uzaklaşarak yolunu kaybettin ve Kaliforniya'ya kadar yol aldın.",
+        hoverBackground: "img/sahil_yolu_degil.png"
+      },
+      {
+        text: "Sahil yolunda sürmeye devam et.",
+        backText: "Sahil yolunda denizi izleyerek araba sürmeye devam et.",
+        logText: "Sahil yolunda sürerken deniz yüzünden yoldan dikkatın dağıldı. Sonucunda büyük bir kaza gerçekleştirerek Kaliforniya'ya hastaneye kaldırıldın.",
+        hoverBackground: "img/sahil_yolu.png"
+      }
+    ],
+    next: [9,9,9,9]
+  },
+    {
+    background: "img/soru_1.png",
+    leftImage: "img/sol_gorsel1.png",
+    rightImage: "img/sag_gorsel1.png",
+    hint: "Deniz yolunda gitme.",
+    intro: "Amerika'da yaşayan bir balıkçısın.",
+    question: "Amerika'nın San Fransisco eyaletinde araba sürerken sahile yaklaştın ve radyoda uzmanlar balıkların güneş ışınları yüzünden zararlı olabileceği konusunda uyarılarda bulunuyor.",
+    options: [
+      {
+        text: "Balık tut ve sat.",
+        backText: "Balık tutup satabilirsin, bu sana para kazandıracak.",
+        logText: "Balık tuttun ve bunu sattın. Sattığın kişi zehirlendi ve sen zararlı ve denetimsiz balığı sattığın için evine icra geldi ve Kaliforniya'daki arkadaşının evine gitmek zorunda kaldın.",
+        hoverBackground: "img/balik_sat.png"
+      },
+      {
+        text: "Balık tut ve ye.",
+        backText: "Balık tutup yiyebilirsin, bu senin açlığını giderecek.",
+        logText: "Balığı yedin ve zehirlendin, seni ambulans Kaliforniya'daki bir hastaneye kaldırdı.",
+        hoverBackground: "img/balik.png"
+      },
+      {
+        text: "Sahil yolundan uzaklaş.",
+        backText: "Sahil yolundan uzaklaşarak, şehrin sakin bölgelerine doğru gideceksin.",
+        logText: "Sahil yolundan uzaklaşarak yolunu kaybettin ve Kaliforniya'ya kadar yol aldın.",
+        hoverBackground: "img/sahil_yolu_degil.png"
+      },
+      {
+        text: "Sahil yolunda sürmeye devam et.",
+        backText: "Sahil yolunda denizi izleyerek araba sürmeye devam et.",
+        logText: "Sahil yolunda sürerken deniz yüzünden yoldan dikkatın dağıldı. Sonucunda büyük bir kaza gerçekleştirerek Kaliforniya'ya hastaneye kaldırıldın.",
+        hoverBackground: "img/sahil_yolu.png"
+      }
+    ],
+    next: [10,10,10,10]
   }
 ];
 
@@ -172,6 +452,15 @@ function renderScene(index) {
     introItem.textContent = scene.intro;
     logList.appendChild(introItem);
     scene._introShown = true;
+  }
+
+    if (opt.logText) {
+    addLogWithEffect(opt.logText);
+  }
+
+  if (scene.intro && !scene._introShown) {
+    addLogWithEffect(scene.intro);
+    scene._introShown = true;
   }
 }
 
