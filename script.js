@@ -242,8 +242,7 @@ function initializeSimpleTheme() {
 const storyData = [
   {
     background: "img/1.jpg",
-    leftImage: "img/.png",
-    rightImage: "img/.png",
+    rightImage: "img/1s.jpg",
     hint: "Kaptan Diego’nun “hava durumunu kontrol etmesi” yalnızca rüzgâr ve yağmur için değil, Güneş kaynaklı uzay havası olaylarını da kapsar. Bu, modern denizcilikte gerçek bir uygulamadır.",
     intro: "Kaptan Diego ve yardımcısı Pedro, İspanya’dan Brezilya’ya uzun bir deniz yolculuğuna çıkacaktır. Güneş’ten gelen parçacık fırtınalarının uydu iletişimi ve seyir sistemlerini etkileyebileceğini radyo dinlerken duydular.",
     question: "Diego, NOAA’nın SWPC sitesindeki uzay hava durumu raporlarını inceledi.",
@@ -281,8 +280,7 @@ const storyData = [
   },
     {
     background: "img/2.jpg",
-    leftImage: "img/.png",
-    rightImage: "img/.png",
+    rightImage: "img/2s.jpg",
     hint: "X sınıfı patlamalar, milyarlarca hidrojen bombası enerjisine eşdeğerdir ve radyo iletişimi, GPS, elektrik şebekeleri gibi sistemlerde kesintilere yol açar.",
     intro: "Yolculuk sırasında televizyon izlerken “X sınıfı güneş patlaması” uyarısı yapıldı; Güneş’ten gelen yüksek enerjili parçacıklar geminin GPS’ini bozdu, radyo sinyallerini kesti ve yön bulmayı zorlaştırdı. ",
     question: "Bu durum, 2003’te tanık olduğu X45 seviyesindeki süper patlamayı andırıyordu.",
@@ -320,8 +318,7 @@ const storyData = [
   },
   {
     background: "img/3.jpg",
-    leftImage: "img/.png",
-    rightImage: "img/.png",
+    rightImage: "img/3s.png",
     hint: "Kanada Uzay Hava Tahmin Merkezi, Dünya Meteoroloji Örgütü’nün bir parçasıdır ve ülke genelinde jeomanyetik fırtınaları izler.",
     intro: "Sonuç olarak yönlerini kaybeden  Diego ve Pedro, sonunda Kanada’ya ulaştılar.",
     question: "Gemiyi güvenli bir limana demirleyip sorun çözülene kadar Kanadada kalmaya karar verdiler ve kanadayı gezmeye karar verdiler",
@@ -359,8 +356,7 @@ const storyData = [
   },
   {
     background: "img/4.jpg",
-    leftImage: "img/.png",
-    rightImage: "img/.png",
+    rightImage: "img/4s.png",
     hint: "Auroralar, Güneş rüzgârlarının Dünya’nın manyetosferiyle etkileşmesiyle oluşur ve uzay havası olaylarının en görsel örneklerindendir.",
     intro: "Gittikleri yerde gökyüzü aniden yeşil ve mor renklere büründü. Pedro heyecanla bağırdı: “Auroralar!” Kaptan Diego, kuzey ışıklarının nasıl oluştuğunu merak etti.",
     question: "Pedro hemen açıkladı: “Bu, Güneş’ten gelen parçacıkların Dünya’nın manyetik alanıyla çarpışması sonucu ortaya çıkan bir doğa harikasıdır.”",
@@ -398,8 +394,7 @@ const storyData = [
   },
   {
     background: "img/5.jpg",
-    leftImage: "img/.png",
-    rightImage: "img/.png",
+    rightImage: "img/5s.png",
     hint: "EMBRACE, Brezilya Uzay Araştırmaları Enstitüsü (INPE) tarafından yürütülür ve Güneş aktivitelerini gerçek zamanlı takip eder.",
     intro: "Sistem arızası çözülmüştü. Diego, rotayı Brezilya’ya çevirmeden önce EMBRACE sisteminden uzay hava durumu raporlarını kontrol etti. ",
     question: "Brezilya Uzay Hava Durumu Programı, Güneş’ten gelen verileri analiz edip bölgesel etkileri tahmin ediyordu. Pedro ise hâlâ X sınıfı patlamaların tekrar herhangi bir arızaya sebep olabileceğini düşünüyordu.",
@@ -437,8 +432,7 @@ const storyData = [
   },
   {
     background: "img/6.jpg",
-    leftImage: "img/.png",
-    rightImage: "img/.png",
+    rightImage: "img/5s.png",
     hint: "Bu olay, hikâyedeki geçiş sahnesidir; uzay havası temasıyla doğrudan bağlantılı değildir.",
     intro: "Okyanusta ilerlerken erzakları tükenmeye başladı.",
     question: "Uzakta bir ada belirdi ama oraya gitmek riskliydi.",
@@ -476,8 +470,7 @@ const storyData = [
   },
   {
     background: "img/7.jpg",
-    leftImage: "img/.png",
-    rightImage: "img/.png",
+    rightImage: "img/7s.png",
     hint: "Bu olay, hikâyedeki geçiş sahnesidir; uzay havası temasıyla doğrudan bağlantılı değildir.",
     intro: "Brezilya’ya yaklaşırken geminin GPS sistemi tekrar hata vermeye başladı.",
     question: "Kaptan, bunun nedenini öğrenmek için yardımcısına döndü: “Yine güneş fırtınası olabilir mi?” diye sordu. Pedro onayladı.",
@@ -515,8 +508,7 @@ const storyData = [
   },
   {
     background: "img/8.jpg",
-    leftImage: "img/.png",
-    rightImage: "img/.png",
+    rightImage: "img/8s.png",
     hint: "Jeomanyetik fırtınalar, uyduların sinyallerini bozarak navigasyon sistemlerinde hatalara yol açabilir.",
     intro: "Kaptan Brezilya limanına vardıktan sonra kamarasına çekildi. Dinlenirken masasında duran cihazlara baktı. Bir radyo, bir televizyon, eski bir telefon ve dizüstü bilgisayar... ",
     question: "Hepsi, uzay havasının etkileyebileceği sistemlerdi.",
@@ -554,8 +546,7 @@ const storyData = [
   },
   {
     background: "img/9.jpg",
-    leftImage: "img/.png",
-    rightImage: "img/.png",
+    rightImage: "img/9s.png",
     hint: "GOES-R uyduları, Güneş’ten gelen radyasyonun Dünya’daki iletişim sistemlerine etkilerini gerçek zamanlı izler.",
     intro: "Malını satıp kârını hesaplayan kaptan, mürettebatla birlikte yeniden denize açılmak üzere hazırlık yaptı.",
     question: "Yorgunluk ve özlem içindeydiler, ama her biri yeni şeyler öğrenmişti.",
@@ -593,8 +584,7 @@ const storyData = [
   },
   {
     background: "img/10.jpg",
-    leftImage: "img/.png",
-    rightImage: "img/.png",
+    rightImage: "img/10s.jpg",
     hint: "",
     intro: "Hikaye Bitmiştir.",
     question: "Hikaye bitti. Dilersen yeniden başlayıp dilersen menüye dönebilirsin.",
