@@ -238,369 +238,369 @@ function initializeSimpleTheme() {
     }
 }
 
-// ==================== OYUN VERİLERİ ====================
 const storyData = [
   {
     background: "img/1.jpg",
     rightImage: "img/1s.jpg",
-    hint: "Kaptan Diego’nun “hava durumunu kontrol etmesi” yalnızca rüzgâr ve yağmur için değil, Güneş kaynaklı uzay havası olaylarını da kapsar. Bu, modern denizcilikte gerçek bir uygulamadır.",
-    intro: "Kaptan Diego ve yardımcısı Pedro, İspanya’dan Brezilya’ya uzun bir deniz yolculuğuna çıkacaktır. Güneş’ten gelen parçacık fırtınalarının uydu iletişimi ve seyir sistemlerini etkileyebileceğini radyo dinlerken duydular.",
-    question: "Diego, NOAA’nın SWPC sitesindeki uzay hava durumu raporlarını inceledi.",
+    hint: "Captain Diego checking the 'weather' doesn’t only mean wind or rain—it also includes solar space weather events. This is an actual practice in modern navigation.",
+    intro: "Captain Diego and his assistant Pedro are about to set sail from Spain to Brazil. While listening to the radio, they heard that solar particle storms from the Sun can affect satellite communication and navigation systems.",
+    question: "Diego checked the space weather reports from NOAA’s SWPC website. The report he reviewed is shown on the right.",
     options: [
       {
-        text: "Rota planlarlar.",
-        backText: "Uzay hava durumu raporuna bakarak rota planlarlar.",
-        logText: "Diego, Güneş aktivitelerini dikkatle inceler ve rotayı daha güvenli bir bölgede ilerleyecek şekilde ayarlar. Bu önlem, ileride yaşayacakları sorunlarda büyük fark yaratacaktır. Gemiyi hazırlayıp denize açılırlar.",
+        text: "They plan their route.",
+        backText: "They plan their route using the space weather report.",
+        logText: "Diego carefully studies solar activity and adjusts the route to sail through safer regions. This precaution will make a big difference later. They prepare the ship and set sail.",
         hoverBackground: "img/1.1.jpg",
-        editorNote: ""
+        editorNote: "Good choice; could also visualize NOAA data directly on the map to show safer paths."
       },
       {
-        text: "Direkt yola çıkarlar.",
-        backText: "Bir hazırlık yapmadan direkt yola çıkarlar",
-        logText: "Zaman kaybetmek istemeyen kaptan, raporlara bakmadan yola koyulur. Ancak Pedro’nun aklında “ya Güneş fırtınası olursa?” sorusu kalır. Geminin pusulası rotayı gösterirken, deniz onları beklemektedir.",
+        text: "They set sail immediately.",
+        backText: "They depart without any preparation.",
+        logText: "The captain, eager not to waste time, leaves without checking the reports. Yet Pedro wonders, ‘What if there’s a solar storm?’ The compass points the way, and the sea awaits them.",
         hoverBackground: "img/1.2.jpg",
-        editorNote: ""
+        editorNote: "Ignoring data; highlighting space weather risks would improve realism."
       },
       {
-        text: "Ekipman kontrolü yaparlar.",
-        backText: "Edindiği bilgilere göre ekipman kontrollerini yaparlar.",
-        logText: "Pedro, iletişim cihazlarını test eder, Diego ise GPS sisteminin yedek bağlantılarını kontrol eder. Her şey hazırdır; bilinçli bir ekiple yolculuk başlar.",
+        text: "They check the equipment.",
+        backText: "Based on the reports, they perform equipment checks.",
+        logText: "Pedro tests the communication devices, while Diego checks the backup GPS connections. Everything is ready; the journey begins with a well-prepared crew.",
         hoverBackground: "img/1.3.jpg",
-        editorNote: ""
+        editorNote: "Smart move; could include NASA readings to guide checks more accurately."
       },
       {
-        text: "Erzak kontrolü yaparlar.",
-        backText: "Öğrendiği bilgilere göre erzaklarını düzenlerler.",
-        logText: "Diego, olası bir fırtına veya yön kaybına karşı gemideki erzakı artırır. Bu temkinli davranış ileride işe yarayacaktır. Hazırlıklar tamamlanır ve gemi limandan ayrılır.",
+        text: "They inspect the supplies.",
+        backText: "They organize their provisions based on the information learned.",
+        logText: "Diego increases food and water storage in case of storms or losing direction. This cautious move will prove useful later. Preparations complete, the ship leaves the harbor.",
         hoverBackground: "img/1.4.jpg",
-        editorNote: ""
+        editorNote: "Prudent action; using storm probability data would add educational value."
       }
     ],
-    next: [1,1,1,1]
+    next: [1, 1, 1, 1]
   },
-    {
+  {
     background: "img/2.jpg",
     rightImage: "img/2s.jpg",
-    hint: "X sınıfı patlamalar, milyarlarca hidrojen bombası enerjisine eşdeğerdir ve radyo iletişimi, GPS, elektrik şebekeleri gibi sistemlerde kesintilere yol açar.",
-    intro: "Yolculuk sırasında televizyon izlerken “X sınıfı güneş patlaması” uyarısı yapıldı; Güneş’ten gelen yüksek enerjili parçacıklar geminin GPS’ini bozdu, radyo sinyallerini kesti ve yön bulmayı zorlaştırdı. ",
-    question: "Bu durum, 2003’te tanık olduğu X45 seviyesindeki süper patlamayı andırıyordu.",
+    hint: "X-class solar flares release energy equivalent to billions of hydrogen bombs and can disrupt radio communication, GPS, and power grids.",
+    intro: "During their voyage, a TV broadcast announced an 'X-class solar flare warning.' The high-energy particles from the Sun disrupted their GPS and cut off radio signals, making navigation difficult.",
+    question: "This reminded Diego of the X45 super flare witnessed in 2003. The super flare is shown on the right.",
     options: [
       {
-        text: "Eski haritayı kullanırlar.",
-        backText: "Gemide buldukları eski bir haritayı kullanırlar.",
-        logText: "Diego, sandıktan çıkardığı haritayı açar ve eski denizcilerin rotalarını hatırlayarak yön tayini yapar. Ancak fırtına nedeniyle haritadaki bazı noktalar belirsizdir.",
+        text: "They use an old map.",
+        backText: "They navigate using an old map found on the ship.",
+        logText: "Diego opens an old map from a chest and recalls ancient sailing routes. But the storm makes some points unclear.",
         hoverBackground: "img/2.1.jpg",
-        editorNote: ""
+        editorNote: "Creative solution; could link historical storm data to support navigation."
       },
       {
-        text: "Yıldızlara göre yol alırlar.",
-        backText: "Yıldızların konumlarına göre hareket eder.",
-        logText: "Pedro geceleri gökyüzüne bakarak yön bulmaya çalışır. Fakat bulutlar sıklaştığında yıldızlar görünmez olur. Gemide endişeli bir sessizlik hakimdir.",
+        text: "They navigate by the stars.",
+        backText: "They steer according to the stars’ positions.",
+        logText: "At night, Pedro tries to navigate by starlight, but as clouds gather, the stars disappear. A heavy silence fills the ship.",
         hoverBackground: "img/2.2.jpeg",
-        editorNote: ""
+        editorNote: "Traditional method; adding geomagnetic storm info could show limits of celestial navigation."
       },
       {
-        text: "Frekansın çekmesini bekler.",
-        backText: "Radyo frekansı çekene kadar beklerler.",
-        logText: "Kaptan sabırla radyo frekansının yeniden gelmesini bekler. Ancak bekleyiş uzar ve mürettebatın morali bozulur. Bu sırada kuzeybatıdan soğuk bir rüzgâr eser.",
+        text: "They wait for the radio signal to return.",
+        backText: "They wait until the radio frequency becomes clear again.",
+        logText: "The captain patiently waits for the radio to come back, but time drags on and the crew grows uneasy. A cold wind blows from the northwest.",
         hoverBackground: "img/2.3.jpg",
-        editorNote: ""
+        editorNote: "Patient approach; could explain how space weather affects radio frequency."
       },
       {
-        text: "Konumlarını tahmin ederler.",
-        backText: "Suyun derinliğini haritayla kullanarak konumlarını tahmin eder.",
-        logText: "Pedro, suyun derinliğini ölçüp eski kayıtlarla karşılaştırır. Tahminleri onları kuzey kıyılarına yönlendirir.",
+        text: "They estimate their position.",
+        backText: "They estimate their position using water depth and maps.",
+        logText: "Pedro measures the water depth and compares it with old records. Their calculations lead them toward the northern shores.",
         hoverBackground: "img/2.4.jpg",
-        editorNote: ""
+        editorNote: "Clever use; integrating real ocean depth data would reinforce learning."
       }
     ],
-    next: [2,2,2,2]
+    next: [2, 2, 2, 2]
   },
   {
     background: "img/3.jpg",
     rightImage: "img/3s.png",
-    hint: "Kanada Uzay Hava Tahmin Merkezi, Dünya Meteoroloji Örgütü’nün bir parçasıdır ve ülke genelinde jeomanyetik fırtınaları izler.",
-    intro: "Sonuç olarak yönlerini kaybeden  Diego ve Pedro, sonunda Kanada’ya ulaştılar.",
-    question: "Gemiyi güvenli bir limana demirleyip sorun çözülene kadar Kanadada kalmaya karar verdiler ve kanadayı gezmeye karar verdiler",
+    hint: "The Canadian Space Weather Forecast Centre is part of the World Meteorological Organization and monitors geomagnetic storms across the country.",
+    intro: "After losing their direction, Diego and Pedro finally reached Canada.",
+    question: "They anchored their ship safely and decided to stay in Canada until systems recovered. They planned to explore the country. The aurora they saw is shown on the right.",
     options: [
       {
-        text: "Niagara Şelalesi",
-        backText: "Niagara Şelalesi gitmeliler.",
-        logText: "Şelalenin gücünü izlerken doğanın enerjisinin Güneş’in gücüne benzediğini düşünürler. Bu düşünce Pedro’da yeni bir merak uyandırır.",
+        text: "Niagara Falls",
+        backText: "They decide to visit Niagara Falls.",
+        logText: "Watching the power of the waterfall reminds them of the Sun’s energy. This sparks new curiosity in Pedro.",
         hoverBackground: "img/3.1.png",
-        editorNote: ""
+        editorNote: "Fun choice; could mention aurora prediction data to connect science to experience."
       },
       {
-        text: "Kıyı Dağları",
-        backText: "Kıyı Dağları gitmeliler.",
-        logText: "Dağların zirvesinde auroraları görebileceklerini duyarlar. Pedro’nun gözleri parıldar, o artık uzay havasını yerinde incelemek istemektedir.",
+        text: "Coast Mountains",
+        backText: "They decide to visit the Coast Mountains.",
+        logText: "They hear they might see auroras from the mountain peaks. Pedro’s eyes light up—he now wants to study space weather firsthand.",
         hoverBackground: "img/3.2.jpg",
-        editorNote: ""
+        editorNote: "Good choice; including aurora activity data would enhance realism."
       },
       {
         text: "Ottawa",
-        backText: "Ottawa'ya gitmeliler.",
-        logText: "Başkentte Kanada Uzay Hava Tahmin Merkezi’ni ziyaret ederler. Bilim insanlarından Güneş fırtınalarının Dünya üzerindeki etkilerini öğrenirler.",
+        backText: "They decide to visit Ottawa.",
+        logText: "In the capital, they visit the Canadian Space Weather Forecast Centre and learn from scientists about the effects of solar storms on Earth.",
         hoverBackground: "img/3.3.jpg",
-        editorNote: ""
+        editorNote: "Educational choice; could show Canadian space weather monitoring data."
       },
       {
         text: "Old Quebec",
-        backText: "Old Quebec gitmeliler.",
-        logText: "Tarihi sokaklarda dolaşırken bir kafede radyodan aurora uyarısı duyarlar. Bu haber onları kuzeye, yeni bir gözleme doğru yönlendirir.",
+        backText: "They decide to visit Old Quebec.",
+        logText: "While wandering the historic streets, they hear an aurora alert on a café radio. The news leads them northward to a new observation point.",
         hoverBackground: "img/3.4.jpg",
-        editorNote: ""
+        editorNote: "Interesting choice; could highlight aurora alerts to engage users."
       }
     ],
-    next: [3,3,3,3]
+    next: [3, 3, 3, 3]
   },
   {
     background: "img/4.jpg",
     rightImage: "img/4s.png",
-    hint: "Auroralar, Güneş rüzgârlarının Dünya’nın manyetosferiyle etkileşmesiyle oluşur ve uzay havası olaylarının en görsel örneklerindendir.",
-    intro: "Gittikleri yerde gökyüzü aniden yeşil ve mor renklere büründü. Pedro heyecanla bağırdı: “Auroralar!” Kaptan Diego, kuzey ışıklarının nasıl oluştuğunu merak etti.",
-    question: "Pedro hemen açıkladı: “Bu, Güneş’ten gelen parçacıkların Dünya’nın manyetik alanıyla çarpışması sonucu ortaya çıkan bir doğa harikasıdır.”",
+    hint: "Auroras form when solar wind interacts with Earth’s magnetosphere—one of the most visual examples of space weather events.",
+    intro: "Suddenly, the sky turned green and purple. Pedro shouted excitedly: “Auroras!” Captain Diego wondered how this phenomenon occurred.",
+    question: "Pedro immediately explained: “It happens when particles from the Sun collide with Earth’s magnetic field. The formation process is shown on the right.”",
     options: [
       {
-        text: "Anın tadını çıkarır.",
-        backText: "Çimlere uzanıp anın tadını çıkarır.",
-        logText: "Sessizce gökyüzüne bakarlar, doğanın büyüsünü hissederler. Diego bu görüntünün ardındaki bilimi merak eder.",
+        text: "They enjoy the moment.",
+        backText: "They lie on the grass and enjoy the moment.",
+        logText: "They quietly gaze at the sky, feeling nature’s magic. Diego begins to wonder about the science behind the lights.",
         hoverBackground: "img/4.1.jpeg",
-        editorNote: ""
+        editorNote: "Nice observation; could display particle data to show cause of auroras."
       },
       {
-        text: "Gökyüzündeki renkleri hayranlıkla izler.",
-        backText: "Çimlere uzanıp gökyüzündeki yıldızları izler.",
-        logText: "Pedro kamerayı çıkarır, görüntüleri kaydeder. “Bunu EMBRACE merkezine göndermeliyiz,” der.",
+        text: "They admire the colors in the sky.",
+        backText: "They lie down and admire the stars and colors above.",
+        logText: "Pedro takes out a camera and records the scene. 'We should send this to the EMBRACE center,' he says.",
         hoverBackground: "img/4.2.jpg",
-        editorNote: ""
+        editorNote: "Engaging; could overlay solar wind data for interactive learning."
       },
       {
-        text: "Sessizce etrafı seyredip gülümser.",
-        backText: "Sessizce etrafı seyredip gülümser.",
-        logText: "Kaptan bu huzurlu anı yaşarken aklında hâlâ bozuk GPS vardır. “Dönmeden önce sistemi düzeltmeliyiz,” diye düşünür.",
+        text: "They silently watch and smile.",
+        backText: "They silently watch the surroundings and smile.",
+        logText: "As the captain enjoys the peaceful moment, he still worries about the broken GPS. 'We should fix it before returning,' he thinks.",
         hoverBackground: "img/4.3.jpg",
-        editorNote: ""
+        editorNote: "Reflective choice; explaining geomagnetic interactions would deepen understanding."
       },
       {
-        text: "Fazla oyalanmayıp gemilerine dönerler.",
-        backText: "Zaman kaybetmeyip gemilerine dönerler.",
-        logText: "Renkler sönmeye başladığında Pedro, “Yola devam etmeden önce sistemi kontrol etmeliyiz,” der.",
+        text: "They head back to the ship.",
+        backText: "They decide not to linger and return to their ship.",
+        logText: "As the lights fade, Pedro says, 'We should check the systems before sailing again.'",
         hoverBackground: "img/4.4.jpg",
-        editorNote: ""
+        editorNote: "Practical choice; could summarize aurora causes with NASA data for clarity."
       }
     ],
-    next: [4,4,4,4]
+    next: [4, 4, 4, 4]
   },
   {
-    background: "img/5.jpg",
-    rightImage: "img/5s.png",
-    hint: "EMBRACE, Brezilya Uzay Araştırmaları Enstitüsü (INPE) tarafından yürütülür ve Güneş aktivitelerini gerçek zamanlı takip eder.",
-    intro: "Sistem arızası çözülmüştü. Diego, rotayı Brezilya’ya çevirmeden önce EMBRACE sisteminden uzay hava durumu raporlarını kontrol etti. ",
-    question: "Brezilya Uzay Hava Durumu Programı, Güneş’ten gelen verileri analiz edip bölgesel etkileri tahmin ediyordu. Pedro ise hâlâ X sınıfı patlamaların tekrar herhangi bir arızaya sebep olabileceğini düşünüyordu.",
-    options: [
-      {
-        text: "Uzay hava durumunu inceler.",
-        backText: "Diego, seyir güvenliği için uzay hava durumunu inceler.",
-        logText: "Son verilere göre Güneş yeniden aktifleşmektedir. Kaptan dikkatli olma kararı alır",
-        hoverBackground: "img/5.1.jpeg",
-        editorNote: ""
-      },
-      {
-        text: "X sınıfı patlamaların etkileri hakkında merakla sorular sorar.",
-        backText: "Pedro, X sınıfı patlamaların etkileri hakkında merakla sorular sorar.",
-        logText: "“Bir patlama daha olursa GPS yine bozulur mu?” diye sorar. Diego raporları incelerken başını sallar.",
-        hoverBackground: "img/5.2.jpeg",
-        editorNote: ""
-      },
-      {
-        text: "Güneş aktivitelerinin Dünya üzerindeki etkilerini tartışır.",
-        backText: "İkisi, Güneş aktivitelerinin Dünya üzerindeki etkilerini tartışır.",
-        logText: "Konuşmaları, teknolojinin uzay havasına ne kadar bağımlı olduğunu fark etmelerini sağlar.",
-        hoverBackground: "img/5.3.jpeg",
-        editorNote: ""
-      },
-      {
-        text: "Raporları inceleyip rotayı güvenli bölgeye göre belirler.",
-        backText: "Kaptan ve mürettebat, raporları inceleyip rotayı güvenli bölgeye göre belirler.",
-        logText: "Planlarını yeniden yaparlar ve gemiyi hazırlamaya başlarlar.",
-        hoverBackground: "img/5.4.jpg",
-        editorNote: ""
-      }
-    ],
-    next: [5,5,5,5]
-  },
-  {
-    background: "img/6.jpg",
-    rightImage: "img/5s.png",
-    hint: "Bu olay, hikâyedeki geçiş sahnesidir; uzay havası temasıyla doğrudan bağlantılı değildir.",
-    intro: "Okyanusta ilerlerken erzakları tükenmeye başladı.",
-    question: "Uzakta bir ada belirdi ama oraya gitmek riskliydi.",
-    options: [
-      {
-        text: "Tehlikeyi düşünüp rotalarına devam ederler.",
-        backText: "Adanın tehlikeli olabileceğini düşünüp rotalarına devam ederler.",
-        logText: "Açlık zorlasa da güvenliği tercih ederler. Ancak GPS sinyali yine zayıflar.",
-        hoverBackground: "img/6.1.jpg",
-        editorNote: ""
-      },
-      {
-        text: "Risk alıp adaya yaklaşırlar.",
-        backText: "Risk alıp adaya yanaşarak yiyecek aramaya karar verirler.",
-        logText: "Adaya çıktıklarında sinyallerin yeniden karıştığını fark ederler. Güneş aktivitesi tekrar artıyor gibidir.",
-        hoverBackground: "img/6.2.jpg",
-        editorNote: ""
-      },
-      {
-        text: "Kalan son erzakları paylaşırlar.",
-        backText: "Gemi içinde kalan son erzakları dikkatle paylaşırlar.",
-        logText: "Birlikte dayanışma gösterirler. Pedro, “Yine GPS bozuldu,” der endişeyle.",
-        hoverBackground: "img/6.3.jpeg",
-        editorNote: ""
-      },
-      {
-        text: "Adaı uzaktan gözlemlerler.",
-        backText: "Adanın güvenli olup olmadığını uzaktan gözlemlemeye çalışırlar.",
-        logText: "Dürbünle adaya bakarken iletişim cihazlarında parazit sesleri duyarlar.",
-        hoverBackground: "img/6.4.jpeg",
-        editorNote: ""
-      }
-    ],
-    next: [6,6,6,6]
-  },
-  {
-    background: "img/7.jpg",
-    rightImage: "img/7s.png",
-    hint: "Bu olay, hikâyedeki geçiş sahnesidir; uzay havası temasıyla doğrudan bağlantılı değildir.",
-    intro: "Brezilya’ya yaklaşırken geminin GPS sistemi tekrar hata vermeye başladı.",
-    question: "Kaptan, bunun nedenini öğrenmek için yardımcısına döndü: “Yine güneş fırtınası olabilir mi?” diye sordu. Pedro onayladı.",
-    options: [
-      {
-        text: "Arızanın güneş fırtınsaı yüzünden olduğunu fark eder.",
-        backText: "Kaptan, GPS arızasının Güneş fırtınasından kaynaklandığını fark eder.",
-        logText: "Diego artık bu olayları tanıyordur. “Bu bir jeomanyetik fırtına,” der.",
-        hoverBackground: "img/7.1.jpeg",
-        editorNote: ""
-      },
-      {
-        text: "Jeomanyetik fırtınaların navigasyon sistemlerini etkileyebileceğini açıklar.",
-        backText: "Pedro, jeomanyetik fırtınaların navigasyon sistemlerini etkileyebileceğini açıklar.",
-        logText: "Pedro öğrendiklerini hatırlayıp açıklama yapar, Diego onaylar.",
-        hoverBackground: "img/7.2.jpeg",
-        editorNote: ""
-      },
-      {
-        text: "İletişimi korumak için yön bulma yöntemleri dener.",
-        backText: "Mürettebat, iletişimi korumak için alternatif yön bulma yöntemleri dener.",
-        logText: "Ekip, pusula ve yıldız gözlemiyle ilerlemeye çalışır.",
-        hoverBackground: "img/7.3.jpeg",
-        editorNote: ""
-      },
-      {
-        text: "Raporları inceleyip geminin konumunu belirlemeye çalışır.",
-        backText: "Kaptan, raporları inceleyip geminin konumunu manuel olarak belirlemeye çalışır.",
-        logText: "Harita ve pusula yardımıyla tekrar kontrol yapar.",
-        hoverBackground: "img/7.4.jpeg",
-        editorNote: ""
-      }
-    ],
-    next: [7,7,7,7]
-  },
-  {
-    background: "img/8.jpg",
-    rightImage: "img/8s.png",
-    hint: "Jeomanyetik fırtınalar, uyduların sinyallerini bozarak navigasyon sistemlerinde hatalara yol açabilir.",
-    intro: "Kaptan Brezilya limanına vardıktan sonra kamarasına çekildi. Dinlenirken masasında duran cihazlara baktı. Bir radyo, bir televizyon, eski bir telefon ve dizüstü bilgisayar... ",
-    question: "Hepsi, uzay havasının etkileyebileceği sistemlerdi.",
-    options: [
-      {
-        text: "Radyo",
-        backText: "Radyo dalgaları, güneş fırtınalarından en çok etkilenen sistemlerdendir.",
-        logText: "Diego radyoda parazit sesi duyar ve gülümser. “Artık nedenini biliyorum,” der.",
-        hoverBackground: "img/8.1.jpeg",
-        editorNote: ""
-      },
-      {
-        text: "Televizyon",
-        backText: "Uydu yayınları sinyal kesintisi yaşayabilir.",
-        logText: "Ekran bir an karardığında Pedro, “Güneş yine devrede,” diye şaka yapar.",
-        hoverBackground: "img/8.2.jpeg",
-        editorNote: ""
-      },
-      {
-        text: "Telefon",
-        backText: "Bazı kablosuz sinyaller zayıflayabilir.",
-        logText: "Eski telefon sinyal bulamayınca Diego defterine not alır: “İletişim uzayla başlar.”",
-        hoverBackground: "img/8.3.jpeg",
-        editorNote: ""
-      },
-      {
-        text: "Bilgisayar",
-        backText: "Uydu veya internet bağlantısı varsa etkilenebilir.",
-        logText: "Diego raporları incelerken sinyal gecikir, yine uzay havasını hatırlar.",
-        hoverBackground: "img/8.4.jpeg",
-        editorNote: ""
-      }
-    ],
-    next: [8,8,8,8]
-  },
-  {
-    background: "img/9.jpg",
-    rightImage: "img/9s.png",
-    hint: "GOES-R uyduları, Güneş’ten gelen radyasyonun Dünya’daki iletişim sistemlerine etkilerini gerçek zamanlı izler.",
-    intro: "Malını satıp kârını hesaplayan kaptan, mürettebatla birlikte yeniden denize açılmak üzere hazırlık yaptı.",
-    question: "Yorgunluk ve özlem içindeydiler, ama her biri yeni şeyler öğrenmişti.",
-    options: [
-      {
-        text: "Yeni sefer için rota belirlenir ve ekibe görev dağıtımı yapar.",
-        backText: "Kaptan, yeni sefer için rotayı belirler ve ekibe görev dağıtımı yapar.",
-        logText: "Bu kez her rota planında uzay hava durumuna da yer verir.",
-        hoverBackground: "img/9.1.jpg",
-        editorNote: ""
-      },
-      {
-        text: "Gemiyi sefer öncesi bakım ve erzak hazırlığı için düzenler.",
-        backText: "Mürettebat, gemiyi sefer öncesi bakım ve erzak hazırlığı için düzenler.",
-        logText: "Pedro, “Artık sadece deniz değil, Güneş de yol arkadaşımız,” der.",
-        hoverBackground: "img/9.2.jpg",
-        editorNote: ""
-      },
-      {
-        text: "Önceki yolculuktan edindikleri bilgileri paylaşır.",
-        backText: "Pedro, önceki yolculuktan edindikleri bilgileri paylaşır.",
-        logText: "Uzay havası denizciler için de önemli,” diyerek notlar tutar.",
-        hoverBackground: "img/9.3.jpg",
-        editorNote: ""
-      },
-      {
-        text: "Kısa bir dinlenmeden sonra yola çıkmaya karar verir.",
-        backText: "Kaptan ve mürettebat, kısa bir dinlenmeden sonra yola çıkmaya karar verir.",
-        logText: "Uzay hava durumu sadece astronotları değil, dünyadaki herkesi etkiler.”",
-        hoverBackground: "img/9.4.jpg",
-        editorNote: ""
-      }
-    ],
-    next: [9,9,9,9]
-  },
-  {
-    background: "img/10.jpg",
-    rightImage: "img/10s.jpg",
-    hint: "",
-    intro: "Hikaye Bitmiştir.",
-    question: "Hikaye bitti. Dilersen yeniden başlayıp dilersen menüye dönebilirsin.",
-    options: [
-      {
-        text: "Bitti.",
-        backText: "Bitti.",
-        logText: "Bitti.",
-        hoverBackground: "img/10.1.jpg",
-        editorNote: ""
-      },
-    ],
-    next: [null], // null = oyun bitişi
-    isFinalQuestion: true // Bu sorunun karneye dahil edilmemesi için işaret
-  }
+  background: "img/5.jpg",
+  rightImage: "img/5s.png",
+  hint: "EMBRACE is operated by Brazil’s National Institute for Space Research (INPE) and tracks solar activity in real time.",
+  intro: "The system malfunction was finally resolved. Before setting course for Brazil, Diego checked the space weather reports from the EMBRACE system.",
+  question: "The Brazilian Space Weather Program analyzed solar data and predicted regional impacts. Pedro still wondered if another X-class flare could cause further problems. The solar data is shown on the right.",
+  options: [
+    {
+      text: "Review space weather reports.",
+      backText: "Diego reviews the space weather reports for navigational safety.",
+      logText: "The latest readings show that the Sun is becoming active again. The captain decides to proceed cautiously.",
+      hoverBackground: "img/5.1.jpeg",
+      editorNote: "Excellent; could show EMBRACE system readings for a real-time experience."
+    },
+    {
+      text: "Ask questions about X-class flares.",
+      backText: "Pedro curiously asks about the effects of X-class flares.",
+      logText: "“If another flare hits, will our GPS fail again?” he asks. Diego studies the reports and nods.",
+      hoverBackground: "img/5.2.jpeg",
+      editorNote: "Curious approach; could simulate particle storm effects on GPS for engagement."
+    },
+    {
+      text: "Discuss the Sun’s effects on Earth.",
+      backText: "They discuss how solar activity affects Earth systems.",
+      logText: "Their conversation helps them realize how dependent technology is on space weather.",
+      hoverBackground: "img/5.3.jpeg",
+      editorNote: "Analytical choice; adding satellite data could visualize impacts."
+    },
+    {
+      text: "Adjust route based on safe zones.",
+      backText: "They review the reports and adjust their route according to safer regions.",
+      logText: "They replan and begin preparing the ship for departure.",
+      hoverBackground: "img/5.4.jpg",
+      editorNote: "Smart strategy; could highlight predicted storm zones from reports."
+    }
+  ],
+  next: [5,5,5,5]
+},
+{
+  background: "img/6.jpg",
+  rightImage: "img/5s.png",
+  hint: "This is a transition scene; it’s not directly related to space weather but keeps the story flow.",
+  intro: "As they continued across the ocean, their supplies began to run low.",
+  question: "A distant island appeared, but approaching it was risky. Solar activity data is shown on the right.",
+  options: [
+    {
+      text: "Continue their route, avoiding risk.",
+      backText: "They decide to stay on course, thinking the island might be dangerous.",
+      logText: "Despite hunger, they choose safety. But soon the GPS signal weakens again.",
+      hoverBackground: "img/6.1.jpg",
+      editorNote: "Prudent choice; could include space weather forecast to justify caution."
+    },
+    {
+      text: "Take the risk and approach the island.",
+      backText: "They decide to take the risk and approach the island in search of food.",
+      logText: "As they land, they notice interference in their instruments again — solar activity seems to be rising.",
+      hoverBackground: "img/6.2.jpg",
+      editorNote: "Risky choice; showing solar activity data would explain potential dangers."
+    },
+    {
+      text: "Share the last of their supplies.",
+      backText: "They carefully share what’s left of their food on board.",
+      logText: "They show solidarity and teamwork. Pedro frowns, “The GPS failed again.”",
+      hoverBackground: "img/6.3.jpeg",
+      editorNote: "Teamwork highlighted; could integrate real-time storm impact on supplies."
+    },
+    {
+      text: "Observe the island from afar.",
+      backText: "They decide to observe the island’s safety from a distance.",
+      logText: "Through binoculars, they spot strange interference on their communication devices.",
+      hoverBackground: "img/6.4.jpeg",
+      editorNote: "Cautious observation; using satellite data could add educational context."
+    }
+  ],
+  next: [6,6,6,6]
+},
+{
+  background: "img/7.jpg",
+  rightImage: "img/7s.png",
+  hint: "This is a transition scene; still connected to space weather through GPS and geomagnetic interference.",
+  intro: "As they neared Brazil, the ship’s GPS system malfunctioned once again.",
+  question: "The captain turned to his assistant and asked, “Could it be another solar storm?” Pedro nodded. Solar activity data is shown on the right.",
+  options: [
+    {
+      text: "Realize it’s caused by a solar storm.",
+      backText: "The captain realizes the GPS malfunction is due to a solar storm.",
+      logText: "Diego now recognizes the signs. “It’s a geomagnetic storm,” he says confidently.",
+      hoverBackground: "img/7.1.jpeg",
+      editorNote: "Insightful choice; could show geomagnetic storm data for better understanding."
+    },
+    {
+      text: "Explain how geomagnetic storms affect navigation.",
+      backText: "Pedro explains that geomagnetic storms can disrupt navigation systems.",
+      logText: "Pedro recalls what he learned earlier and explains, while Diego nods in agreement.",
+      hoverBackground: "img/7.2.jpeg",
+      editorNote: "Educational; overlaying NOAA data could strengthen the explanation."
+    },
+    {
+      text: "Try alternative navigation methods.",
+      backText: "They attempt alternative navigation methods to maintain communication.",
+      logText: "The crew relies on compass readings and star positions to stay on course.",
+      hoverBackground: "img/7.3.jpeg",
+      editorNote: "Practical approach; could simulate GPS disruption using real solar data."
+    },
+    {
+      text: "Check reports and calculate position manually.",
+      backText: "The captain studies the reports and manually estimates the ship’s position.",
+      logText: "With maps and compass in hand, he double-checks their route.",
+      hoverBackground: "img/7.4.jpeg",
+      editorNote: "Logical; could use EMBRACE system data to verify location safely."
+    }
+  ],
+  next: [7,7,7,7]
+},
+{
+  background: "img/8.jpg",
+  rightImage: "img/8s.png",
+  hint: "Geomagnetic storms can disrupt satellite signals, leading to navigation and communication failures.",
+  intro: "After reaching the port of Brazil, Captain Diego retired to his cabin. On his desk lay a radio, a television, an old phone, and a laptop...",
+  question: "All were systems that could be affected by space weather. The relevant data is shown on the right.",
+  options: [
+    {
+      text: "Radio",
+      backText: "Radio waves are among the systems most affected by solar storms.",
+      logText: "Diego hears static on the radio and smiles. “Now I know why,” he says.",
+      hoverBackground: "img/8.1.jpeg",
+      editorNote: "Good choice; could demonstrate radio disruption with real solar storm data."
+    },
+    {
+      text: "Television",
+      backText: "Satellite broadcasts may experience signal interruptions.",
+      logText: "When the screen flickers, Pedro jokes, “The Sun is at it again.”",
+      hoverBackground: "img/8.2.jpeg",
+      editorNote: "Relevant; could show satellite signal interference using NASA data."
+    },
+    {
+      text: "Phone",
+      backText: "Some wireless signals may weaken during strong solar events.",
+      logText: "When his old phone loses signal, Diego notes in his journal: “Communication begins in space.”",
+      hoverBackground: "img/8.3.jpeg",
+      editorNote: "Practical; could link wireless signal loss to actual geomagnetic activity."
+    },
+    {
+      text: "Computer",
+      backText: "If connected to satellite or internet links, it may also be affected.",
+      logText: "While reviewing reports, Diego notices lag — and once again remembers space weather.",
+      hoverBackground: "img/8.4.jpeg",
+      editorNote: "Tech focus; could include real-time solar wind effects on internet/GPS."
+    }
+  ],
+  next: [8,8,8,8]
+},
+{
+  background: "img/9.jpg",
+  rightImage: "img/9s.png",
+  hint: "GOES-R satellites monitor how solar radiation affects communication systems on Earth in real time.",
+  intro: "After selling his goods and calculating his profit, the captain and his crew prepared for another voyage.",
+  question: "They were tired yet inspired — each of them had learned something new. Solar physics data is displayed on the right.",
+  options: [
+    {
+      text: "Plan a new route and assign crew duties.",
+      backText: "The captain sets a new route and assigns duties to the crew.",
+      logText: "This time, every route plan includes space weather data.",
+      hoverBackground: "img/9.1.jpg",
+      editorNote: "Strategic choice; could mark high-risk zones on the map using space weather data."
+    },
+    {
+      text: "Prepare the ship for maintenance and supplies.",
+      backText: "The crew organizes maintenance and prepares supplies for the next voyage.",
+      logText: "Pedro smiles, saying, “From now on, the Sun is our sailing companion too.”",
+      hoverBackground: "img/9.2.jpg",
+      editorNote: "Practical approach; integrating NASA forecasts would enhance planning."
+    },
+    {
+      text: "Share lessons learned from the last journey.",
+      backText: "Pedro shares the lessons they learned during their last expedition.",
+      logText: "He notes, “Space weather matters for sailors too,” writing everything down carefully.",
+      hoverBackground: "img/9.3.jpg",
+      editorNote: "Good practice; could include solar storm case studies for reference."
+    },
+    {
+      text: "Rest briefly before setting sail again.",
+      backText: "The captain and crew decide to rest a bit before setting sail again.",
+      logText: "They now understand that space weather affects not only astronauts, but everyone on Earth.",
+      hoverBackground: "img/9.4.jpg",
+      editorNote: "Balanced choice; could review current solar data before sailing."
+    }
+  ],
+  next: [9,9,9,9]
+},
+{
+  background: "img/10.jpg",
+  rightImage: "img/10s.jpg",
+  hint: "",
+  intro: "The story has come to an end.",
+  question: "The journey is over. You can either restart the adventure or return to the main menu.",
+  options: [
+    {
+      text: "The End.",
+      backText: "The End.",
+      logText: "The End.",
+      hoverBackground: "img/10.1.jpg",
+      editorNote: "Story concluded; could summarize all NASA and EMBRACE data highlights for a recap."
+    },
+  ],
+  next: [null],
+  isFinalQuestion: true
+}
 ];
+
 
 // ==================== OYUN SİSTEMİ ====================
 let currentIndex = 0;
@@ -787,7 +787,7 @@ function resetGameDOM() {
     
     if (storyLog) {
         storyLog.innerHTML = `
-            <h3>Hikaye Günlüğü</h3>
+            <h3>Story Log</h3>
             <ul id="log-list"></ul>
         `;
     }
