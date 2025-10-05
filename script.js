@@ -106,44 +106,44 @@ function showGameReport(report) {
         // Rapor ekranı oluştur
         const reportHTML = `
             <div class="game-report">
-                <h1>🎮 Oyun Tamamlandı!</h1>
+                <h1>Gaem Completed!</h1>
                 <div class="report-stats">
                     <div class="stat-item">
-                        <h3>Toplam Süre</h3>
+                        <h3>Total Time</h3>
                         <div class="stat-value">${formatTime(report.totalTime)}</div>
                     </div>
                     <div class="stat-item">
-                        <h3>Toplam Soru</h3>
+                        <h3>Total Question</h3>
                         <div class="stat-value">${report.totalAnswers}</div>
                     </div>
                     <div class="stat-item">
-                        <h3>Soru Başına Ortalama</h3>
+                        <h3>Average Question Time</h3>
                         <div class="stat-value">${formatTime(report.averageTimePerQuestion)}</div>
                     </div>
                 </div>
                 <div class="answers-details">
-                    <h3>📊 Detaylı Karne</h3>
+                    <h3>Detailed Analisis</h3>
                     <div class="answers-list">
                         ${report.playerAnswers.map((answer, index) => `
                             <div class="answer-item">
                                 <div class="answer-header">
-                                    <div class="answer-number">Soru ${index + 1}</div>
+                                    <div class="answer-number">Question ${index + 1}</div>
                                     <div class="answer-time">⏱️ ${formatTime(answer.timeSpent)}</div>
                                 </div>
                                 <div class="question-text">${answer.questionText}</div>
                                 <div class="selected-answer">
-                                    <strong>Verdiğin Cevap:</strong> ${answer.selectedOption}
+                                    <strong>Your Answer:</strong> ${answer.selectedOption}
                                 </div>
                                 <div class="editor-note">
-                                    <strong>Editör Notu:</strong> ${answer.editorNote}
+                                    <strong>Note of Editor:</strong> ${answer.editorNote}
                                 </div>
                             </div>
                         `).join('')}
                     </div>
                 </div>
                 <div class="report-actions">
-                    <button onclick="restartGame()" class="play-button">🔄 Tekrar Oyna</button>
-                    <button onclick="goToMainMenu()" class="play-button">🏠 Ana Menü</button>
+                    <button onclick="restartGame()" class="play-button">🔄 Replay</button>
+                    <button onclick="goToMainMenu()" class="play-button">🏠 Main Menu</button>
                 </div>
             </div>
         `;
@@ -152,10 +152,10 @@ function showGameReport(report) {
         
         // Log alanına da basit rapor ekle
         storyLog.innerHTML = `
-            <h3>Oyun Özeti</h3>
-            <p>Toplam Süre: ${formatTime(report.totalTime)}</p>
-            <p>Cevaplanan Soru: ${report.totalAnswers}</p>
-            <p>Ortalama Süre: ${formatTime(report.averageTimePerQuestion)}</p>
+            <h3>Summarize of Game</h3>
+            <p>Total Time: ${formatTime(report.totalTime)}</p>
+            <p>Answered Question: ${report.totalAnswers}</p>
+            <p>Average Time: ${formatTime(report.averageTimePerQuestion)}</p>
         `;
     }
 }
@@ -163,11 +163,11 @@ function showGameReport(report) {
 // Zaman formatı
 function formatTime(seconds) {
     if (seconds < 60) {
-        return `${seconds} saniye`;
+        return `${seconds} seconds`;
     } else {
         const minutes = Math.floor(seconds / 60);
         const remainingSeconds = seconds % 60;
-        return `${minutes} dakika ${remainingSeconds} saniye`;
+        return `${minutes} minute ${remainingSeconds} second`;
     }
 }
 
